@@ -10,7 +10,7 @@ debug: true
 ### GUI browser for actuator endpoints
 ```
 // build.gradle
-  implementation 'org.springframework.data:spring-data-rest-hal-browser:3.3.8.RELEASE'
+  implementation 'org.springframework.data:spring-data-rest-hal-explorer'
 
 // application.yml
 management:
@@ -21,7 +21,7 @@ management:
 
 
 // browser url
-/servlet/context-path/browser/index.html
+/servlet/context-path/index.html
 
 
 ```
