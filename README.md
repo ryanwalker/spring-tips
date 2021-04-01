@@ -20,6 +20,7 @@ debug: true
 
 ### log sql statements and arguments
 ```
+// application.yml
 spring:
   jpa:
     show-sql: false
