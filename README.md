@@ -18,3 +18,15 @@ debug: true
 /servlet/context-path/browser/index.html
 ```
 
+### log sql statements and arguments
+```
+spring:
+  jpa:
+    show-sql: false
+    hibernate:
+      format_sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+```
