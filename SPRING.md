@@ -49,5 +49,4 @@ logging:
         type: trace
         stat: debug
 
-
 ```
