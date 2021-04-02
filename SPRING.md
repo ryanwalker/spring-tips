@@ -30,12 +30,24 @@ management:
 ```
 // application.yml
 spring:
+  config:
+    activate:
+      on-profile: default
   jpa:
-    show-sql: false
-    hibernate:
-      format_sql: true
+    show-sql: true
     properties:
       hibernate:
         format_sql: true
+        order_inserts: true
+        jdbc:
+          batch_size: 500
+
+logging:
+  level:
+    org:
+      hibernate:
+        type: trace
+        stat: debug
+
 
 ```
