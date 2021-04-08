@@ -45,3 +45,18 @@ logging:
         stat: debug
 
 ```
+
+### Log auto-configuration
+```
+// application.yml
+debug: true
+```
+
+### Actuator endopint exposure
+```
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+```
