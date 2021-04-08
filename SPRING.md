@@ -13,12 +13,7 @@ debug: true
   implementation 'org.springframework.data:spring-data-rest-hal-explorer'
 
 // application.yml
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-
+// Not sure how to only show in non-prod environments
 
 // browser url
 /servlet/context-path/index.html
