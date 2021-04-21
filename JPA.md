@@ -10,7 +10,7 @@ public class Student {
   @GeneratedValue
   private Id Long;
   
-  @OneToOne
+  @OneToOne(fetch=FetchType.LAZY)
   private Passport passport;
 }
 
